@@ -17,7 +17,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/pusher-auth', function (req, res) {
+app.post('/pusher-auth', function (req, res) {
   var socketId = req.body.socket_id;
   var channelName = req.body.channel_name;
   
