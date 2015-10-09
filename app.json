@@ -1,0 +1,6 @@
+{
+  "name": "Pusher reveal.js auth server",
+  "description": "Pusher Auth Server for the Pusher reveal.js remote",
+  "repository": "https://github.com/pusher-community/pusher-revealjs-remote-server",
+  "keywords": ["node", "express", "pusher", "reveal.js"]
+}
