@@ -15,3 +15,9 @@ The server assumes that the following environment variables are set up:
 ```bash
 $ node index.js
 ```
+
+## Deploy to Heroku
+
+As above, you'll need to set up the required environment variables.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
