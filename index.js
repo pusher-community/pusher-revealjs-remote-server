@@ -1,6 +1,7 @@
 var Pusher = require('pusher');
 var express = require('express');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 // TODO: allow config to be defined in a config.json for more flexability
 
@@ -14,6 +15,7 @@ var pusher = new Pusher(config);
 
 var app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get('/pusher-auth', function (req, res) {
   var socketId = req.body.socket_id;
