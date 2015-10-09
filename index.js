@@ -14,7 +14,7 @@ var config = {
 var pusher = new Pusher(config);
 
 var app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 app.use(cors());
 
 app.post('/pusher-auth', function (req, res) {
